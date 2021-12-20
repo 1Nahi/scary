@@ -102,11 +102,11 @@ a:hover{
   }
   #ghostimg {
     position: relative;
-    top: 160px;
+    top: 10px;
   }
 }
 .sec1{
-  height:75vh;
+  height:60vh;
   width:94vw;
   position: relative;
   left:3vw;
@@ -125,11 +125,11 @@ a:hover{
 }
 #ghostimg{
   position: relative;
-  top:160px;
+  top:125px;
 }
 @media only screen and (min-width: 768px){
   #ghostimg {
     position: relative;
-    top: 500px;
+    top: 400px;
     left:20%;
 }
