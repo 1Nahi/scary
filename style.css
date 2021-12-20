@@ -100,17 +100,9 @@ a:hover{
   #check:checked ~ ul{
     left: 0;
   }
-  .checkbtn #close{
-    display: none;
-    position:relative;
-    top:8px;
-    fill:currentColor;
-  }
-  .checkbtn #bars.open{
-    display: none;
-  }
-  .open .checkbtn #close{
-    display: list-item;
+  #ghostimg {
+    position: relative;
+    top: 25vh;
   }
 }
 .sec1{
@@ -130,4 +122,14 @@ a:hover{
 }
 .sec1:active{
   transform: translateY(-10px);
+}
+#ghostimg{
+  position: relative;
+  top:25vh;
+}
+@media only screen and (min-width: 768px){
+  #ghostimg {
+    position: relative;
+    top: 30vh;
+    left:20%;
 }
