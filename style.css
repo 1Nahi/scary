@@ -106,7 +106,7 @@ a:hover{
   }
   .togglebutton{
     position: relative;
-    bottom:-15vh;
+    bottom:-90px;
     right:-80vw;
     height:30px;
     width:30px;
