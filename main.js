@@ -6,3 +6,7 @@ const showMsg = () => {
 });
 
 }
+const themify = () => {
+  var body = document.body;
+  body.classList.toggle("theme");
+}

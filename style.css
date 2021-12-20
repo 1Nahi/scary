@@ -104,6 +104,40 @@ a:hover{
     position: relative;
     top: 10px;
   }
+  .togglebutton{
+    position: relative;
+    bottom:-15vh;
+    right:-80vw;
+    height:30px;
+    width:30px;
+    background:transparent;
+    outline: none;
+    border: none;
+  }
+  .togglebutton #bulb{
+    display: none;
+  }
+  body.theme{
+    background: #23232D;
+  }
+  .theme .togglebutton #moon{
+    display: none;
+  }
+  .theme .togglebutton #bulb{
+    display: block;
+  }
+  .theme .sec1{
+    background:linear-gradient(to right bottom,
+      #3968FA, #A93AFA);
+  }
+  .theme #ghostimg{
+    background: white;
+    border-radius: 20px;
+  }
+  .theme .sec1:hover{
+    background: linear-gradient(to right bottom,
+      #A93AFA,#3968FA);
+  }
 }
 .sec1{
   height:60vh;
@@ -120,8 +154,12 @@ a:hover{
   justify-content: center;
   transition: all 0.3s ease;
 }
-.sec1:active{
+.sec1:hover{
   transform: translateY(-10px);
+  background: #F7F7F7;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 15px;
+}
+.sec1:hover #ghostimg{
 }
 #ghostimg{
   position: relative;
