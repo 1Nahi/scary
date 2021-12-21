@@ -23,7 +23,7 @@ const showMsg = () => {
     confirmButtonText: '👀',
     confirmButtonColor: '#4F4165',
     backdrop: `
-        rgba(0,0,123,0.4)
+        rgba(0,0,0,0.8)
         url("https://i.gifer.com/5N2g.gif")
         top
         no-repeat
@@ -40,7 +40,7 @@ const showMsg2 = () => {
     confirmButtonText: '👀',
     confirmButtonColor: '#4F4165',
     backdrop: `
-        rgba(0,0,123,0.4)
+        rgba(0,0,0,0.8)
         url("https://i.gifer.com/3Ua7.gif")
         top
         no-repeat
@@ -57,7 +57,7 @@ const showMsg3 = () => {
     confirmButtonText: '👀',
     confirmButtonColor: '#4F4165',
     backdrop: `
-        rgba(0,0,123,0.4)
+        rgba(0,0,0,0.8)
         url("https://i.pinimg.com/originals/a6/ce/bf/a6cebfa2db13098c4bf7a636ee696a48.gif")
         top
         no-repeat
@@ -74,12 +74,18 @@ const showMsg4 = () => {
     confirmButtonText: '👀',
     confirmButtonColor: '#4F4165',
     backdrop: `
-        rgba(0,0,123,0.4)
+        rgba(0,0,0,0.8)
         url("https://c.tenor.com/LnUFxubwuegAAAAC/ghostface-killah.gif")
         top
         no-repeat
       `
   })
 }
-
-
+const fear = () => {
+  Swal.fire({
+    imageUrl: 'https://c.tenor.com/y6LbgjsjsHYAAAAC/scary-ghost.gif',
+    imageAlt: 'Custom image',
+    background:'black',
+    confirmButtonText:'👀'
+  })
+}
