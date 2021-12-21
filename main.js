@@ -86,6 +86,7 @@ const fear = () => {
     imageUrl: 'https://c.tenor.com/y6LbgjsjsHYAAAAC/scary-ghost.gif',
     imageAlt: 'Custom image',
     background:'black',
-    confirmButtonText:'👀'
+    confirmButtonText:'👀',
+    backdrop:'rgba(0,0,0,0.8)'
   })
 }
