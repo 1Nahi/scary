@@ -1,0 +1,135 @@
+body{
+  background: white;
+}
+.sliding-navbar {
+  height: 100vh;
+  width: 150px;
+  position: absolute;
+  background-color: black;
+  color: white;
+  left: -150px;
+  padding: 0px;
+  margin: 0px;
+  transition: 1s;
+  top: 0px;
+  z-index: 2;
+}
+
+.navicon {
+  width: 40px;
+  height: 5px;
+  background-color: transparent;
+  transition: 1s;
+  position: absolute;
+  margin: auto;
+  right: -50px;
+  top: 30px;
+}
+
+.navicon::before {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color:black;
+  position: absolute;
+  transform: translateY(10px);
+  transition: 0.4s;
+}
+
+.navicon::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color:black;
+  position: absolute;
+  transform: translateY(-10px);
+  transition: 0.4s;
+}
+
+.sliding-navbar.open {
+  transform: translateX(150px);
+}
+
+.sliding-navbar.open .navicon::before {
+  transform: rotate(45deg);
+}
+
+.sliding-navbar.open .navicon::after {
+  transform: rotate(-45deg);
+}
+
+
+.nav-tray {
+  height: 100vh;
+  background-color: red;
+  width: 20vw;
+  color: red;
+  position: relative;
+  top: 0px;
+}
+
+.nav-text {
+  padding: 5px;
+  margin: 50px 5px;
+  border-left: white 5px solid;
+  list-style-type: none;
+  position: relative;
+  height:30px;
+  width:30px;
+  fill:white;
+}
+
+.nav-selector {
+  width: 10px;
+  height: 10px;
+  border-top: transparent 5px solid;
+  border-right: transparent 5px solid;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 25%;
+  transition: 0.1s;
+}
+
+.nav-text:hover>.nav-selector {
+  border-top: white 5px solid;
+  border-right: white 5px solid;
+  transform: translateX(-40px) rotate(45deg);
+
+}
+
+.nav-button {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.nav-button img{
+  height: 30px;
+  width: 30px;
+}
+#navstrip{
+  background:transparent;
+  height: 55px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 25px -5px, rgba(0, 0, 0, 0.04) 0px 0px 10px 5px;
+  width: 100%;
+}
+#logogh{
+  float: right;
+  height:50px;
+  width:50px;
+  padding-right:10px;
+}
+#card{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 25px -5px, rgba(0, 0, 0, 0.04) 0px 0px 10px 5px;
+  position: relative;
+  top:50px;
+  background:url("https://media0.giphy.com/media/fwo1qSDGVRl2pYvOCy/giphy.webp?cid=6c09b9528d223d1e6ad1fcaa06f0f23416f83b2866ffb37f&rid=giphy.webp&ct=g");
+  background-size:200px 200px;
+  height:200px;
+  width:100%;
+  border-radius:20px;
+  transition: all 0.3s ease;
+}
+#card:hover{
+  transform: translateY(-10px);
+}
