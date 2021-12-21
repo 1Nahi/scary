@@ -90,3 +90,7 @@ const fear = () => {
     backdrop:'rgba(0,0,0,0.8)'
   })
 }
+const themify = () => {
+  var theme = document.body;
+  theme.classList.toggle("theme");
+}

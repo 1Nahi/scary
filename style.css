@@ -14,7 +14,6 @@ body{
   top: 0px;
   z-index: 2;
 }
-
 .navicon {
   width: 40px;
   height: 5px;
@@ -25,7 +24,6 @@ body{
   right: -50px;
   top: 30px;
 }
-
 .navicon::before {
   content: "";
   width: 40px;
@@ -109,9 +107,13 @@ body{
 }
 #navstrip{
   background:transparent;
+  border-radius:10px;
   height: 55px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 25px -5px, rgba(0, 0, 0, 0.04) 0px 0px 10px 5px;
   width: 100%;
+}
+.theme #navstrip {
+  background: linear-gradient(to bottom,#E4E4E4,rgba(0,0,0,0.8));
 }
 #logogh{
   float: right;
@@ -119,6 +121,7 @@ body{
   width:50px;
   padding-right:10px;
 }
+
 #card{
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 25px -5px, rgba(0, 0, 0, 0.04) 0px 0px 10px 5px;
   position: relative;
@@ -136,4 +139,30 @@ body{
 
 #card:hover{
   transform: translateY(-10px);
+}
+#themebtn{
+  position: absolute;
+  bottom:0;
+  right: 0;
+  height:60px;
+  width:60px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+#themebtn img{
+  height:50px;
+  width:50px;
+}
+#themebtn #sun{
+  display: none;
+}
+.theme #themebtn #moon{
+  display: none;
+}
+.theme #themebtn #sun{
+  display: block;
+}
+body.theme{
+  background: black;
 }
