@@ -133,12 +133,7 @@ body{
   align-items: center;
   justify-content: center;
 }
-#card img{
-  height:40px;
-  width:40px;
-  position: relative;
-  top:80px;
-}
+
 #card:hover{
   transform: translateY(-10px);
 }
