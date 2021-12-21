@@ -15,38 +15,46 @@
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 </head>
 <body>
-  <nav>
-    <input type="checkbox" id="check">
-    <label for="check" class="checkbtn">
-     Menu
-    </label>
-    <label class="logo">
-      <img onclick="showMsg()" src="https://img.icons8.com/dusk/64/000000/ghost--v1.png"/>
-    </label>
+  <div class="sliding-navbar" id="sliding-navbar">
     <ul>
-      <li onclick="showMsg()"><a href="#">
-        <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-ghost-halloween-flatart-icons-flat-flatarticons-3.png"/>
-      </a></li>
-      <li onclick="showMsg()"><a href="#">
-        <img src="https://img.icons8.com/external-linector-flat-linector/64/000000/external-ghost-horror-decoration-linector-flat-linector.png"/>
-      </a></li>
-      <li onclick="showMsg()"><a href="#">
-        <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-ghost-halloween-flatart-icons-flat-flatarticons-1.png"/>
-      </a></li>
-      <li onclick="showMsg()"><a href="#">
-        <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-ghost-halloween-victoruler-flat-victoruler-1.png"/>
-      </a></li>
+      <li onclick="showMsg()" class="nav-text">
+        <a class="nav-button">
+          <img src="https://img.icons8.com/external-wanicon-two-tone-wanicon/64/000000/external-ghost-halloween-costume-avatar-wanicon-two-tone-wanicon.png"/>
+        </a>
+        <div class="nav-selector">
+        </div>
+      </li>
+      <li onclick="showMsg2()" class="nav-text">
+        <a class="nav-button">
+          <img src="https://img.icons8.com/external-wanicon-two-tone-wanicon/64/000000/external-japanese-ghost-halloween-costume-avatar-wanicon-two-tone-wanicon.png"/>
+        </a>
+        <div class="nav-selector">
+        </div>
+      </li>
+      <li onclick="showMsg3()" class="nav-text">
+        <a class="nav-button">
+          <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-ghost-halloween-flatart-icons-flat-flatarticons.png"/>
+        </a>
+        <div class="nav-selector">
+        </div>
+      </li>
+      <li onclick="showMsg4()" class="nav-text">
+        <a class="nav-button">
+          <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-ghost-halloween-flatart-icons-flat-flatarticons-3.png"/>
+        </a>
+        <div class="nav-selector">
+        </div>
+      </li>
     </ul>
-  </nav>
-  <main>
-    <div class="sec1">
-      <img id="ghostimg" src="https://img.icons8.com/nolan/96/ghost.png"/>
+    <div class="navicon">
     </div>
-    <button onclick="themify()" class="togglebutton" type="submit">
-      <img id="moon" src="https://img.icons8.com/external-photo3ideastudio-gradient-photo3ideastudio/64/000000/external-moon-sleep-photo3ideastudio-gradient-photo3ideastudio.png"/>
-      <img style="width:60px;height:60px" id="bulb" src="https://img.icons8.com/emoji/50/000000/light-bulb-emoji.png"/>
-    </button>
-  </main>
+  </div>
+  <div id="navstrip">
+    <img id="logogh" src="https://img.icons8.com/external-linector-lineal-color-linector/64/000000/external-ghost-horror-decoration-linector-lineal-color-linector.png"/>
+  </div>
+  <div id="card">
+    
+  </div>
   <script src="main.js"></script>
 </body>
 </html>
