@@ -198,6 +198,7 @@ body.theme{
   box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
   width:365px;
   border-radius: 5px;
+  overflow-x: hidden;
 }
 .theme .search-input .autocom-box{
   background:black;
