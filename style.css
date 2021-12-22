@@ -23,7 +23,7 @@ body{
   position: absolute;
   margin: auto;
   right: -60px;
-  top: 30px;
+  top: 33px;
 }
 .navicon::before {
   content: "";
