@@ -172,6 +172,7 @@ body.theme{
 .wrapper{
   max-width: 450px;
   margin: 150px auto;
+  font-family: sans-serif;
 }
 
 .wrapper .search-input{
