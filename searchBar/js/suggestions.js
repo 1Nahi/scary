@@ -16,5 +16,5 @@ let suggestions = [
     "Can ghosts talk to us?",
     "How to see ghosts?",
     "How to know the presence of a ghost?",
-    "How do I knoe if I'm a ghost?"
+    "How do I know if I'm a ghost?"
 ];
