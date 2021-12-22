@@ -165,8 +165,8 @@ body.theme{
   background: black;
 }
 ::selection{
-  color: #fff;
-  background: #664AFF;
+  color: black;
+  background: #efefef;
 }
 
 .wrapper{
