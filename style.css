@@ -222,7 +222,6 @@ body.theme{
 }
 .theme .autocom-box li{
   background:black;
-  border-bottom: 1px solid grey;
 }
 
 .search-input.active .autocom-box li{
