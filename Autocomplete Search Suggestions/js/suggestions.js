@@ -1,0 +1,20 @@
+let suggestions = [
+    "Ghosts?",
+    "What is a ghost?",
+    "What's a ghost?",
+    "What do you mean by a ghost?",
+    "Has science approved presence of ghosts?",
+    "Are ghosts real scientifically?",
+    "Can we see ghosts through science?",
+    "Are Ghosts real?",
+    "Where are Ghosts?",
+    "Is your home Haunted?",
+    "How to check your home for any ghost?",
+    "Ghost checker device",
+    "How to make ghost checker device?",
+    "How to talk to ghosts?",
+    "Can ghosts talk to us?",
+    "How to see ghosts?",
+    "How to know the presence of a ghost?",
+    "How do I knoe if I'm a ghost?"
+];
