@@ -3,7 +3,14 @@ const inputBox = searchWrapper.querySelector("input");
 const suggBox = searchWrapper.querySelector(".autocom-box");
 const icon = searchWrapper.querySelector(".icon");
 let linkTag = searchWrapper.querySelector("a");
+var inputva = "";
 inputBox.onkeyup = (e)=>{
+    if(e.keyCode === 13){
+      window.location.href=`https://duckduckgo.com/?q=${String(inputva)}`
+    }
+    else{
+      inputva+=e.target.value;
+    }
     let userData = e.target.value;
     let emptyArray = [];
     if(userData){
